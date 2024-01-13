@@ -1,21 +1,125 @@
---Loads
+ --Loads
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 --Main
-local Window = OrionLib:MakeWindow({Name = "Voce e gay ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "SASUGAY HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "VOCEEGAY",IntroText = "SASUGAY HUB"})
  
 
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Tab Blox fruit",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
  Tab:AddButton({
-	Name = "Auto Farm",
+	Name = "Tsou Hub",
 	Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
   	end    
 })
 
  
+Tab:AddButton({
+	Name = "Mietret Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "zamex Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexHub/main/Zamex_PC.lua'))()
+	  
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://scriptdee.com/ZeeHub123.lua", true))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Sky2836/BT/main/BYPASS/BLACKTRAP"))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUBKEY", true))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ZaqueHub/BloxFruitPC/05507b61c0092197a3b6233ca305f2dfacd20050/KaitunZaque.lua'))()
+	  
+  	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tab  Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Hubv2",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/Siriusisbetter/main/xyz.bb.lua",true))()
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hubv2",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/No6No6No7yt/Lumin-Hub/main/Blade.lua'))();
+	  
+  	end
+})
+
+Tab:AddButton({
+	Name = "Hubv2",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Blade/main/Ball"))()
+	  
+  	end
+})
+
+   
